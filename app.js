@@ -101,3 +101,24 @@ console.log(isOdd(1))
 console.log(isOdd(2))
 console.log(isOdd(5))
 
+//If number is even return 1, otherwise return -1
+
+function booleanInteger (digit) {    
+    return digit % 2 === 0 ? 1 : -1;
+} 
+
+ console.log(booleanInteger(1))
+ console.log(booleanInteger(2))
+
+ //Check if user is logged in and subscribed 
+
+ function isLoggedInAndSubscribed (loggedIn, subscribed) {
+ return loggedIn === 'LOGGED_IN' && subscribed === 'SUBSCRIBED';
+ }
+
+
+ console.log(isLoggedInAndSubscribed('LOGGED_IN', 'SUBSCRIBED'))
+ console.log(isLoggedInAndSubscribed('LOGGED_IN', 'UNSUBSCRIBED'))
+ console.log(isLoggedInAndSubscribed('LOGGED_OUT', 'SUBSCRIBED'))
+
+ 
